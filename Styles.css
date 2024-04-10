@@ -1,22 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-
 *{
     padding:0;
     margin:0;
     font-family: 'Montserrat', sans-serif;
 }
 
-.sideBar{
-    width: 17%;
+.sideSec{
+    width: 18%;
     color: white;
     background-color: black;
-    height: 100%;
 }
 
 #spotify{
     height: 50px;
-    margin: 8%;
+    margin: 5%;
 }
 
 .home,.search,.library{
@@ -31,7 +27,7 @@
     padding-bottom: 2%;
 }
 
-#home-select{
+#section{
     width: 25px;
     height: 25px;
 }
@@ -54,7 +50,7 @@
     padding-bottom: 2%;
 }
 
-#playlist-select{
+#playlist-sec{
     width: 30px;
     height: 30px;
 }
@@ -65,7 +61,7 @@
     padding-top: 1.5%;
 }
 
-.homeSelect{
+.section{
     margin-bottom: 15%;
 }
 
@@ -73,7 +69,7 @@
     position: relative;
 }
 
-.favSelect{
+.favSection{
     margin-left: 10%;
     margin-bottom: 15%;
 }
@@ -108,17 +104,17 @@
     padding-bottom: 8%;
 }
 
-.main-screen{
+.mainSection{
     background-image: linear-gradient(#222222,#121212);
     width: 100%;
 }
 
-.website{
+.clone{
     display: flex;
     flex-direction: row;    
 }
 
-#arrowsimg{
+#arr{
     height: 40px;
 }
 
@@ -129,15 +125,14 @@
     display: flex;
 }
 
-
-.aboutUser{
+.Image{
     width: 8.5%;
     margin-left:78%;
     margin-top: 1%;
     display: flex;
 }
 
-.main-topBar{
+.main-top{
     display: flex;
     margin-bottom: 4.5vh;
 }
@@ -149,27 +144,26 @@
     border-radius: 100px;
 }
 
-.middle-section{
+.midSection{
     margin-left: 3.5%;
 }
 
-.wishSec h1{
+.greet h1{
     color: white;
 }
 
-.wishSec{
-    /* border: 1px solid; */
+.greet{
     margin-bottom: 1.8%;
 }
 
-.songDivs{
+.divSong{
     margin-left: 0.3%;
     display: flex;
     margin-right: 5%;
     justify-content: space-between;
 }
 
-.box-Liked,.box-Liked2,.box-N,.box-Neffex,.box-Dance{
+.Liked,.Liked2,.N,.Neffex,.Dance{
     width: 23%;
     height: 90px;
     border-radius: 5px;
@@ -177,54 +171,58 @@
     display: flex;
 }
 
-.box-Liked,.box-Neffex,.box-N,.box-Liked2,.box-Dance  img{
+.Liked,.Neffex,.N,.Liked2,.Dance img{
     height: 100%;
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 4px 0px 0px 4px;
 }
 
-.box-Liked span{
+.Liked span{
     margin-top: 10%;
     margin-left: 8%;
     font-size: 20px;
     color: white;
 }
 
-.box-Neffex span{
+.Neffex span{
     margin-top: 10%;
     margin-left: 8%;
     font-size: 20px;
     color: white;
 }
 
-.box-N span{
+.N span{
     margin-top: 10%;
     margin-left: 8%;
     font-size: 20px;
     color: white;
 }
 
-.box-Liked2 span{
+.Liked2 span{
     margin-top: 10%;
     margin-left: 8%;
     font-size: 20px;
     color: white;
 }
 
-.box-Dance span{
+.Dance span{
     margin-top: 10%;
     margin-left: 8%;
     font-size: 20px;
     color: white;
 }
 
-.shows-text{
+.Shows{
     margin-top: 4%;
     color: white;
     font-size: 25px;
     margin-bottom: 2%;
+    margin-right: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.show-weekly,.show-meditation,.show-words,.show-alexa,.show-stories,.show-daily{
+.weekly,.meditation,.words,.alexa,.stories,.daily{
     background-color: #181818;
     width: 50%;
 }
@@ -234,12 +232,12 @@
     margin-left: 10%;
 }
 
-.show-weekly span{
+.weekly span{
     color:white;
     font-size: 15px;
     margin: 10%;
 }
-.show-weekly span2{
+.weekly span2{
     color:#A6A6A6;
     font-size: 12px;
     margin: 10%;
@@ -248,69 +246,61 @@
     margin-top: 8%;
 }
 
-.showsDiv{
+.showSec{
     display: flex;
     justify-content: space-around;
 }
 
-
-.show-meditation span{
+.meditation span{
     color:white;
     font-size: 15px;
     margin: 10%;
 }
-.show-meditation span2{
+.meditation span2{
     color:#A6A6A6;
     font-size: 12px;
     margin: 10%;
 }
 
-
-
-.show-words span{
+.words span{
     color:white;
     font-size: 15px;
     margin: 10%;
 }
-.show-words span2{
+.words span2{
     color:#A6A6A6;
     font-size: 12px;
     margin: 10%;
 }
 
-
-
-.show-alexa span{
+.alexa span{
     color:white;
     font-size: 15px;
     margin: 10%;
 }
-.show-alexa span2{
+.alexa span2{
     color:#A6A6A6;
     font-size: 12px;
     margin: 10%;
 }
 
-
-
-.show-stories span{
+.stories span{
     color:white;
     font-size: 15px;
     margin: 10%;
 }
-.show-stories span2{
+.stories span2{
     color:#A6A6A6;
     font-size: 12px;
     margin: 10%;
 }
 
-
-.show-daily span{
+.daily span{
     color:white;
     font-size: 15px;
     margin-left: 7%;
 }
-.show-daily span2{
+.daily span2{
     color:#A6A6A6;
     font-size: 12px;
     margin: 10%;
@@ -322,7 +312,7 @@
     margin-left: 10%;
 }
 
-.bottom-footer{
+.bottomSection{
     background-color: #181818;
     width: 100%;
     height: 100%;
@@ -333,12 +323,15 @@
     width: 60px;
 }
 
-.footer-bottom{
+.bottom{
     display: flex;
 }
 
-.divSong{
+.Songs {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px; 
 }
 
 .song-name span{
@@ -369,22 +362,21 @@
     margin-left: 12%;
 }
 
-.bottom-green-pro{
+.Color{
     background-color: #1ED760;
     height: 30px;
 }
-.bottom-green{
+.green{
     background-color: #1ED760;
     height: 30px;
     margin-left: 80%;
 }
 
-
-.bottom-green span{
+.green span{
     margin-bottom: 40%;
 }
 
-.bottom-green img{
+.green img{
     margin-top: 1%;
 }
 
